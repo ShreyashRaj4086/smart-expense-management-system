@@ -1,0 +1,27 @@
+# Python virtual environment
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.pytest_cache/
+.coverage
+htmlcov/
+
+# Node & Frontend
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/.tmp/
+.eslintcache
+
+# Local Database & Uploaded Receipts
+data/
+*.db
+*.sqlite
+*.sqlite3
+
+# Environment & Secrets
+.env
+.env.local
+*.log
